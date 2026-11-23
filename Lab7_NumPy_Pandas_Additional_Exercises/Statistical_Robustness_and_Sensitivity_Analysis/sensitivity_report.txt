@@ -1,0 +1,34 @@
+STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+============================================================
+Student ID: TUPM-26-3228
+Seed digit: 8
+Selected features: 5
+Bootstrap repetitions: 280
+
+Selected Features:
+Feature_419, Feature_89, Feature_584, Feature_117, Feature_164
+
+Largest change in mean difference: 0.027884
+Feature with largest change: Feature_419
+
+Features with changed difference sign:
+[]
+
+Features with changed ranking:
+[]
+
+Available-case confidence intervals crossing zero:
+['Feature_419', 'Feature_89', 'Feature_584', 'Feature_117']
+
+Median-imputed confidence intervals crossing zero:
+['Feature_419', 'Feature_89', 'Feature_584', 'Feature_117']
+
+Reproducibility verified: True
+
+Feature Comparison Table:
+    Feature  Available_Case_Mean_Difference  Available_Case_CI_Lower  Available_Case_CI_Upper  Median_Imputed_Mean_Difference  Median_Imputed_CI_Lower  Median_Imputed_CI_Upper  Absolute_Change_in_Difference  Direction_Changed  Available_Case_Rank  Median_Imputed_Rank  Ranking_Changed
+Feature_419                      -34.847299               -93.562492                25.423814                      -34.819415              -101.403673                20.131144                       0.027884              False                  1.0                  1.0            False
+ Feature_89                        5.776017                -5.514904                16.652735                        5.776017                -3.702554                17.000806                       0.000000              False                  2.0                  2.0            False
+Feature_164                        0.049344                 0.011246                 0.084653                        0.048718                 0.013450                 0.092779                       0.000626              False                  3.0                  3.0            False
+Feature_117                       -0.000492                -0.002038                 0.001084                       -0.000492                -0.002105                 0.001274                       0.000000              False                  4.0                  4.0            False
+Feature_584                        0.000413                -0.001095                 0.002073                        0.000414                -0.001350                 0.001945                       0.000001              False                  5.0                  5.0            False
